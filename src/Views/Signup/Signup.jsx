@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { signup } from "../Services/auth-firebase.service";
+import { signup } from "../../Services/auth-firebase.service";
 
 import './Signup.css';
 

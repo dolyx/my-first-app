@@ -2,11 +2,11 @@ import React from 'react';
 
 import './Home.css';
 
-import InputText from '../../components/InputText';
-import LigthSwitch from '../../components/LightSwitch';
-import WelcomeClass from '../../components/WelcomeClass';
-import WelcomeFunction from '../../components/WelcomeFunction';
-import Counter from '../../components/Counter';
+import InputText from '../../Components/InputText';
+import LigthSwitch from '../../Components/LightSwitch';
+import WelcomeClass from '../../Components/WelcomeClass';
+import WelcomeFunction from '../../Components/WelcomeFunction';
+import Counter from '../../Components/Counter';
 
 class Home extends React.Component {
     constructor(props) {

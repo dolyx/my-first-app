@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { signout } from '../services/auth-firebase.service';
+import { signout } from '../Services/auth-firebase.service';
 
 import './Navbar.css'
 
-import logo from '../Assets/Images/logoNoName.png';
+import logo from '../assets/images/logoNoName.png';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
-import app from '../services/config-firebase';
+import app from '../Services/config-firebase';
 
 const auth = getAuth(app);
-
-
-
 
 function Navbar() {    
     const [user, setUser] = useState({});
