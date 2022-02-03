@@ -1,0 +1,10 @@
+.content {
+    height: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}

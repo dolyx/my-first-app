@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 60px;
+    background-color: cornflowerblue;
+}
+
+header a {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 5px;
+    color: black;
+}
+
+header a.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 60px;
+}
