@@ -20,13 +20,9 @@ class Home extends React.Component {
         return (
             <div>
                 <h1>Home</h1>
-                <h1>Bonjour tout le monde</h1>
-                <WelcomeClass name='nicolas' />
-                <WelcomeClass name='Remi' />
-                <WelcomeFunction name='Thomas' />
-                <WelcomeFunction name='Julie' />
-                <LigthSwitch name='interupteur 1' />
-                <LigthSwitch name='interupteur 2' />
+                <WelcomeClass name='Anîsa' />
+                <WelcomeFunction name='Hani' />
+                <LigthSwitch name='interrupteur principal' />
                 <InputText name='firstname' placeholder="votre prenom" />
                 <InputText name='lastname' placeholder="votre nom" />
                 <InputText name='nickname' placeholder="votre surnom" />        

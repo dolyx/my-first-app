@@ -26,7 +26,7 @@ class LigthSwitch extends React.Component {
     }
 
     color() {
-        return this.state.switch ? '#00FF00' : '#FF0000';
+        return this.state.switch ? '#FDFD96' : '#000000';
     }
 
     render() {
